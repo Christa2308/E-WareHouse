@@ -1,9 +1,9 @@
 # E-WareHouse_System
 > A robust web-based solution for digitizing and automating warehouse operations.
  ## 1. Project Statement 
-The E-Warehouse System is a web-based solution designed to digitize and automate the core operations of a storage facility. Traditional manual record-keeping often leads to data silos, inventory inaccuracies, and delayed order fulfillment.
+<small> The E-Warehouse System is a web-based solution designed to digitize and automate the core operations of a storage facility. Traditional manual record-keeping often leads to data silos, inventory inaccuracies, and delayed order fulfillment.
 
-This system provides a centralized platform to manage real-time stock levels, supplier interactions, and warehouse movements (Inbound/Outbound). By leveraging the event-driven architecture of ASP.NET Web Forms, the application ensures data integrity and provides a responsive interface for warehouse managers to monitor assets, reduce overhead costs, and optimize the supply chain workflow.
+This system provides a centralized platform to manage real-time stock levels, supplier interactions, and warehouse movements. By leveraging the event-driven architecture of ASP.NET Web Forms, the application ensures data integrity and provides a responsive interface for warehouse managers to monitor assets, reduce overhead costs, and optimize the supply chain workflow. </small>
 
 ---
 ## 2. Project Objectives
@@ -26,3 +26,5 @@ The objectives are divided into functional and technical goals:
 **- *Dynamic Data Binding:*** Use GridView and Repeater controls to render real-time inventory reports directly from a SQL Server database.
 
 **- *Optimized Data Access:*** Implement Stored Procedures in SQL Server to handle high-volume transaction processing for stock movements.
+
+
