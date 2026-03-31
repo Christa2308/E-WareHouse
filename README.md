@@ -30,7 +30,7 @@ Demonstrating mastery over the ASP.NET Web Forms lifecycle and database connecti
 * ***Dynamic Data Binding:*** Use GridView and Repeater controls for real-time reporting.
 
 * ***Secure Access:*** Implement Role-Based Access Control (RBAC) to distinguish between Admin and Staff users.
-
+---
  ### Key Features of E-Warehouse
  
 **Inventory Management**
