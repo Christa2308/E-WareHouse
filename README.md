@@ -1,9 +1,7 @@
 # E-WareHouse_System
 > A robust web-based solution for digitizing and automating warehouse operations.
  ### 1. Project Statement 
-The E-Warehouse System addresses challenges faced in traditional warehouse management, where operations rely on manual processes or outdated software. These approaches often lead to inefficiencies such as inaccurate inventory tracking, delays in order processing, and lack of real-time data visibility. As a result, managing stock levels, monitoring product movement, and generating reliable reports becomes difficult, leading to errors and reduced productivity.
-
-Many existing systems also lack a centralized platform to efficiently manage warehouse activities, including supplier coordination and inventory updates. This creates challenges in maintaining data consistency and responding quickly to operational needs.
+The E-Warehouse System fixes the problems found in old-fashioned warehouse management, where people often use paper lists or basic software that cannot keep track of exactly where items are stored. Instead of just knowing a product is in a building, this system uses a clear three-step organization—Warehouses, Zones, and Bins—to help workers find the right shelf in seconds. It also stops common data mistakes by using smart database rules that ensure every stock update is recorded correctly and completely. By adding automatic alerts for low stock and secure controls over who can change data, the system turns a messy storage room into a highly accurate, safe, and easy-to-manage digital workspace.
 
 Therefore, there is a need for a modern, web-based solution that can streamline warehouse operations, improve accuracy, and provide real-time access to critical information.
 
@@ -33,73 +31,59 @@ Demonstrating mastery over the ASP.NET Web Forms lifecycle and database connecti
 ---
  ### Key Features of E-Warehouse
  
-**Inventory Management**
+ **1. Location Management**
+ 
+**Warehouse Management:** High-level tracking of multiple storage buildings.
 
-Keep track of all items in the warehouse
+**Zone Partitioning:** Organizing warehouses into logical sections like "Aisles" or "Cold Storage".
 
-Add, update, or remove products
-
-Know current stock levels in real time
-
----
-
-**Receiving Goods**
-
-Record items coming from suppliers
-
-Verify quantity and quality of goods
-
-Automatically update inventory
+**Bin-Level Tracking:** Precise inventory placement using specific Bin IDs and capacity limits.
 
 ---
 
-**Order Management**
+**2. Advanced Inventory Operations**
 
-Process customer orders
+Our system uses Stored Procedures to ensure that every stock change is accurate and logged.
 
-Check the availability of products
+**Stock Adjustments:** A specialized module to manually add or subtract stock with mandatory reason codes for auditing.
 
-Manage order status (pending, shipped, delivered)
+**Real-Time Stock Status:** A centralized view of total quantities available across the entire organization.
+
+**Product Location Mapping:** Tracking exactly how many units of a specific product are in which Bin.
+
+ **Movement History:** An automated ledger that records every transaction, who performed it, and when.
+ 
+---
+
+**3. Secure User & Permission Management**
+
+You have a robust security layer that controls exactly what each staff member can do.
+
+**Role-Based Access Control:** Defining users as Admins or Staff.
+
+**Granular Action Permissions:** Checkbox-level control over who has the right to Insert, Update, or Delete records.
+
+**Warehouse Assignment:** Restricting staff members to only see and manage stock within their assigned warehouse.
+
+**Account Status Control:** The ability to instantly activate or deactivate user accounts.
 
 ---
 
-**Shipping & Delivery**
+**4. Intelligent Monitoring & Alerts**
 
-Prepare items for delivery
+Your database is "active," meaning it watches the data for you.
 
-Track shipments
+Low Stock Triggers: Database triggers (trg_Alert_LowStock) that automatically detect when inventory falls below a safe threshold.
 
-Update delivery status
-
----
-
-**Product Management**
-
-Store product details (name, price, category)
-
-Organize products into categories
-
-Search and filter products easily
-
---- 
-
-**User Management**
-
-Manage system users (Admin, Staff, Customer)
-
-Control access (who can do what)
-
-Secure login/logout
+Automated Alerting: A dedicated notification system that flags items needing immediate restocking.
 
 ---
 
-**Returns Management**
+**5. Product & Category Organization**
 
-Handle returned goods
+Dynamic Search & Filtering: Interfaces designed to find products, zones, or bins instantly by name or status.
 
-Update inventory after returns
-
-Track reasons for return
+**Category Management:** Grouping products into logical types to simplify reporting and navigation.
 
 ---
 ### 3. Functional and Non-Functional Requirements
