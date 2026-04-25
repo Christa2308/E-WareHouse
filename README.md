@@ -120,11 +120,13 @@ Our database is "active," meaning it watches the data for you.
 
 ### 4. Use Case Diagram
 
-<img width="595" height="716" alt="Use Case Diagram E-Warehouse" src="https://github.com/user-attachments/assets/3c712cc9-bd27-438b-87a6-c66956c483cc" />
+<img width="1572" height="401" alt="image" src="https://github.com/user-attachments/assets/06049e6c-593a-4d3f-b396-d5d3cf284da9" />
+ 
 
 ### 5. Database Diagram 
 
-<img width="534" height="610" alt="image" src="https://github.com/user-attachments/assets/185cb5ed-0f43-470d-b957-054fc34fb6d6" />
+<img width="632" height="650" alt="image" src="https://github.com/user-attachments/assets/cb63baa5-1c3a-4df6-bd59-9f742d53de4c" />
+
 
 ---
 
