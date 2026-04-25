@@ -33,11 +33,11 @@ Demonstrating mastery over the ASP.NET Web Forms lifecycle and database connecti
  
  **1. Location Management**
  
-**Warehouse Management:** High-level tracking of multiple storage buildings.
+* **Warehouse Management:** High-level tracking of multiple storage buildings.
 
-**Zone Partitioning:** Organizing warehouses into logical sections like "Aisles" or "Cold Storage".
+* **Zone Partitioning:** Organizing warehouses into logical sections like "Aisles" or "Cold Storage".
 
-**Bin-Level Tracking:** Precise inventory placement using specific Bin IDs and capacity limits.
+* **Bin-Level Tracking:** Precise inventory placement using specific Bin IDs and capacity limits.
 
 ---
 
@@ -45,13 +45,13 @@ Demonstrating mastery over the ASP.NET Web Forms lifecycle and database connecti
 
 Our system uses Stored Procedures to ensure that every stock change is accurate and logged.
 
-**Stock Adjustments:** A specialized module to manually add or subtract stock with mandatory reason codes for auditing.
+* **Stock Adjustments:** A specialized module to manually add or subtract stock with mandatory reason codes for auditing.
 
-**Real-Time Stock Status:** A centralized view of total quantities available across the entire organization.
+* **Real-Time Stock Status:** A centralized view of total quantities available across the entire organization.
 
-**Product Location Mapping:** Tracking exactly how many units of a specific product are in which Bin.
+* **Product Location Mapping:** Tracking exactly how many units of a specific product are in which Bin.
 
- **Movement History:** An automated ledger that records every transaction, who performed it, and when.
+* **Movement History:** An automated ledger that records every transaction, who performed it, and when.
  
 ---
 
@@ -59,31 +59,31 @@ Our system uses Stored Procedures to ensure that every stock change is accurate 
 
 You have a robust security layer that controls exactly what each staff member can do.
 
-**Role-Based Access Control:** Defining users as Admins or Staff.
+* **Role-Based Access Control:** Defining users as Admins or Staff.
 
-**Granular Action Permissions:** Checkbox-level control over who has the right to Insert, Update, or Delete records.
+* **Granular Action Permissions:** Checkbox-level control over who has the right to Insert, Update, or Delete records.
 
-**Warehouse Assignment:** Restricting staff members to only see and manage stock within their assigned warehouse.
+* **Warehouse Assignment:** Restricting staff members to only see and manage stock within their assigned warehouse.
 
-**Account Status Control:** The ability to instantly activate or deactivate user accounts.
+* **Account Status Control:** The ability to instantly activate or deactivate user accounts.
 
 ---
 
-**4. Intelligent Monitoring & Alerts**
+**4. Monitoring & Alerts**
 
-Your database is "active," meaning it watches the data for you.
+Our database is "active," meaning it watches the data for you.
 
-Low Stock Triggers: Database triggers (trg_Alert_LowStock) that automatically detect when inventory falls below a safe threshold.
+* **Low Stock Triggers:** Automatically detect when inventory falls below a safe threshold.
 
-Automated Alerting: A dedicated notification system that flags items needing immediate restocking.
+* **Automated Alerting:** A dedicated notification system that flags items needing immediate restocking.
 
 ---
 
 **5. Product & Category Organization**
 
-Dynamic Search & Filtering: Interfaces designed to find products, zones, or bins instantly by name or status.
+* **Dynamic Search & Filtering:** Interfaces designed to find products, zones, or bins instantly by name or status.
 
-**Category Management:** Grouping products into logical types to simplify reporting and navigation.
+* **Category Management:** Grouping products into logical types to simplify reporting and navigation.
 
 ---
 ### 3. Functional and Non-Functional Requirements
